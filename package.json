@@ -1,0 +1,27 @@
+{
+  "name": "com.conoceme_mobile",
+  "displayName": "conoceme",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "Applozic-Cordova-Ionic-PhoneGap-Chat-Plugin": "git+https://github.com/AppLozic/Applozic-Cordova-Ionic-PhoneGap-Chat-Plugin.git",
+    "cordova-android": "^6.3.0",
+    "cordova-plugin-whitelist": "^1.3.3",
+    "com.applozic.phonegap": "https://github.com/AppLozic/Applozic-Cordova-Ionic-PhoneGap-Chat-Plugin.git"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "com.applozic.phonegap": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}
